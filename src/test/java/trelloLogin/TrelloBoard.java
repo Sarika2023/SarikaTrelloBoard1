@@ -30,7 +30,6 @@ import org.openqa.selenium.By;
 		}
 	@Test
 	public void Execute() throws Exception {
-		driver.findElement(By.xpath("//h3[text()='Log in to Trello']")).click();
 		String path="C:\\Users\\Dell\\eclipse-workspace\\Mproject\\Excel Data Provider\\Excel Sheet 1.xlsx";
 		FileInputStream fis=new FileInputStream(path);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
